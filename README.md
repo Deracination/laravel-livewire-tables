@@ -451,6 +451,10 @@ protected $options = [
     
     // Whether or not the table is wrapped in a `.table-responsive` or not
     'bootstrap.responsive' => true,
+    
+    // Message to display when there are no results in the table. If undefined
+    // this uses the localized 'no_results' string from strings.php
+    'message.empty' => 'There are no results to display for this query.',
 ];
 ```
 
