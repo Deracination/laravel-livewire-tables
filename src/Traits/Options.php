@@ -29,6 +29,8 @@ trait Options
             'container' => true,
             'responsive' => true,
         ],
+        'message'   =>  [
+        ],
     ];
 
     /**
